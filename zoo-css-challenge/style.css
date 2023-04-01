@@ -29,9 +29,6 @@ section {
   background-color: #f8f0fb;
 }
 
-img {
-
-}
 
 h1,
 h2,
@@ -49,12 +46,12 @@ h1 {
 
 h2 {
   font-size: 175%;
-  color:#BEEE62;
+
 }
 
 h3 {
   font-size: 150%;
-  color:#BEEE62;
+  
 }
 
 button {
@@ -82,7 +79,6 @@ footer {
 
 .introduction {
   background-color: white;
-  word-spacing:em;
   text-align: justify;
 }
 
@@ -93,7 +89,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 568px;
+  top: 10px;
   right: 20px;
 
   display: flex;
@@ -139,12 +135,12 @@ footer {
 
 .giraffe {
   background-color: #483C46;
-  color: #F4743B;
+  color: #BEEE62;
 
 }
 
 .girrafefirstp {
-  color:#F4743B;
+  color:#BEEE62;
   font-size:120%;
 
 }
@@ -160,13 +156,13 @@ footer {
 }
 
 .card h4 {
-  display:flex;
   margin-bottom: 1em;
 }
 
 .card a {
   text-decoration: underline;
   font-weight: bold;
+  justify-content: center;
 }
 
 .card time {
@@ -191,7 +187,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
-  background-color: rgb(162 111 84);
   border-radius: 10px;
 }
 
@@ -219,13 +214,43 @@ footer {
 
 /*Programs*/
 
-/*.programs .card {
+.programs .card{
+  display: inline-block;
+  
+}
+
+
+.newsheading h2 {
   display: flex;
-}*/
+justify-content: center;
+background-color: #f8f0fb;
+margin: 0px 0px 0px 0px;
+border: 0px 0px 0px 0px;
+padding-top: 100px;
 
+}
 
-.news h2 {
+.programsheading h2 {
+  display: flex;
+justify-content: center;
+background-color: #f8f0fb;
+margin: 0px 0px 0px 0px;
+border: 0px 0px 0px 0px;
+padding-top: 100px;
 
+}
+
+section.news{
 display: flex;
 justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
 }
+
+section.programs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  }
+  
